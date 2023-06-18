@@ -20,21 +20,7 @@ const Videos = () => {
         }
         fetchShorts()
     },[])
-
-    // useEffect(()=>{
-    //     let fetching=async ()=>{
-    //         let response=await fetch('http://localhost:4000/youtube')
-    //         let res=await response.json()
-    //         setVideo(res.videos)
-    //         setShorts(res.shorts)
-    //     }
-    //     fetching()
-    // })
-
-
-    //  let res= video.filter((x)=>x.id!==id)
-    //    setVideo(res)
-    //    alert(`${name} video got removed`)
+    
     let removeVideo=(id,name)=>{
      fetch(`http://localhost:4000/videos/${id}`,{
         method:'DELETE'

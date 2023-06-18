@@ -1,0 +1,40 @@
+
+.videos{
+    font-family: 'roboto', "arial",sans-serif;
+    text-transform: capitalize;
+}
+.videos .views{
+    text-transform: initial;
+}
+.videos img{
+    width: 360px;
+    height: 202px;
+    border-radius: 10px;
+}
+.videodata{
+    display: flex;
+    flex-wrap: wrap;
+}
+.video{
+    margin: 14px 0px;
+    width: 25%;
+}
+.video h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.video p{
+    margin: 0px;
+}
+.video a{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* .video p, .video a{
+    cursor: pointer;
+    color: black;
+    margin: 0px;
+} */
+
+

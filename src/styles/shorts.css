@@ -1,0 +1,28 @@
+.shorts img{
+    width: 172px;
+    height: 304px;
+    border-radius: 10px;
+}
+
+.shortsdata{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.short{
+    width: 14.28%;
+}
+.sdata{
+    padding: 0px 22px;
+    text-align: justify;
+}
+.sdata h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.sdata p{
+    margin: 0px;
+}
+
+

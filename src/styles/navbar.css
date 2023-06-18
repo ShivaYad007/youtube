@@ -1,0 +1,42 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px groove whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+.searchBar input{
+    height: 40px;
+    width: 700px;
+    border-radius: 30px;
+    border: 1px solid rgb(210, 204, 204);
+    font-size: 20px;
+    padding-left: 20px;
+
+
+}
+.searchBar input:focus{
+    border: 1px solid rgb(16, 177, 203);
+    outline: none;
+}
+.userOptions{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.ac{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  padding: 8px 15px;
+  border-radius: 100%;
+ 
+
+} 
+
+
